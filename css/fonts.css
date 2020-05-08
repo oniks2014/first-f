@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'OpenSans-Light';
+  src:url(../fonts/Open_Sans/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/BebasNeueRegular.eot');
+  src: url('../fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+  url('../fonts/BebasNeueRegular.woff') format('woff'),
+  url('../fonts/BebasNeueRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'Roboto-Regular';
+  src:url(../fonts/Roboto-Regular.ttf);
+}

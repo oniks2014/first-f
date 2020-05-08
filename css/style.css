@@ -1,0 +1,388 @@
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src:url(../fonts/Open_Sans/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/BebasNeueRegular.eot');
+  src: url('../fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+  url('../fonts/BebasNeueRegular.woff') format('woff'),
+  url('../fonts/BebasNeueRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'Roboto-Regular';
+  src:url(../fonts/Roboto-Regular.ttf);
+}
+.animation {
+  -webkit-animation: vibrate 0.3s linear infinite both;
+  animation: vibrate 0.3s linear infinite both; 
+}
+*::-webkit-input-placeholder {
+	color:#c0392b;
+	opacity: 1;
+}
+
+
+}/* Firefox 19+ */
+*:-moz-placeholder {
+ color:#c0392b;
+ opacity: 1;
+ }/* Firefox 18- */
+ *:-ms-input-placeholder {
+   color:#c0392b;
+   opacity: 1;
+ }
+
+
+body input:focus:required:invalid;
+body input: textarea: required:invalid{
+
+}
+body input:focus:required:valid;
+body input: textarea: required:valid{
+
+}
+body{
+ font-family: Bebas Neue,sans-serif;
+ font-size: 16px;
+ margin: 0;
+ padding: 0;
+ justify-content: center;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+li{
+  list-style: none;
+}
+.container-fluid{
+  min-width: 300vh;
+}
+.header{
+  width: 300vh;
+}
+.logo{
+  margin:16px;
+  margin-left: 10px;
+}
+
+.navbar{
+
+  width: 260vh;
+}
+
+.navbar-nav{
+
+ 
+  font-size: 14px;
+  font-family: Roboto-Regular, sans-serif;
+
+  font-weight: bold;
+  color: #000;
+  line-height: 16px;
+  padding-left: 200px;
+  width: 300vh;
+
+} 
+.nav-item{
+  padding-top: 42px;
+}
+
+.navbar-text{
+  padding-left: 55px;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: Roboto,sans-serif;
+  padding-top: 49px;
+
+
+}
+.navbar-icon{
+  line-height: 18px;
+  margin-left: 10px;
+  margin-top: 49px;
+}
+.navbar-toggler{
+  display: block;
+  width: 36px;
+  height: 64px;
+  z-index: 2;
+  position:absolute;
+  border: none;
+  top: 302px;
+  right: 140px;
+  
+
+}
+.navbar-light .navbar-toggler{
+  outline:none;
+  -moz- outline: 0 !important;
+   border: 0;
+}
+.navbar-toggler:focus{
+  outline: none;
+}
+.navbar-light .navbar-toggler-icon
+{
+display: block;
+  position: relative;
+ width: 24px;
+  height: 2px;
+  top:3px;
+  background-image: none;
+  background-color: #fff;
+ 
+}
+
+  
+  .navbar-light .navbar-toggler-icon:nth-of-type(1){
+         top: -6px;
+         width: 36px;
+  }
+ .navbar-light .navbar-toggler-icon:nth-of-type(3){
+         top: -21px;
+         
+  }
+ .navbar-light .navbar-toggler-icon:nth-of-type(4){
+         top: 10px;
+
+        
+  }
+ .navbar-light .navbar-toggler-icon:nth-of-type(5){
+         top: 19px;
+
+        
+  }
+
+
+.collapse {
+ 
+  color: #fff;
+  
+
+
+}
+.active .navbar-toggler-icon {
+
+    transform: translateY(-10px);
+     background-color: #000;
+
+ 
+}
+ .active.navbar-toggler {
+  transform: translateY(-100px);
+  outline: none;
+}
+
+.navbar-light .navbar-toggler-icon:before,
+.navbar-light .navbar-toggler-icon::after {
+  content: '';
+  transition: 0,5s;
+ 
+  
+}
+.navbar-toggler-icon:before{
+  transform:translateY(-6px);
+  width: 36px;
+}
+.navbar-light .navbar-toggler-icon:after{
+  transform: translateY(7px);
+}
+
+
+
+
+.owl-carousel {
+  display: block;
+  width: 1280px;
+  height: 768;
+  
+  text-align: center;
+
+
+
+}
+
+
+.owl-item:after {
+  content: ' ';
+  background-color: #000;
+  height: 100%;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  width: 100%;
+}
+.owl-item:hover:after {
+  opacity: 2;
+}
+
+.action{
+  width: 632px;
+  position: absolute;
+  top: 259px;
+  left: 180px;
+  font-size: 56px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Bebas Neue',normal;
+  height: 112px;
+  line-height: 56px;
+  font-weight: 400;
+  text-align: left;
+  opacity: 0.99;
+  z-index: 2;
+  
+
+}
+.desc{
+ position: absolute;
+ width: 604px;
+ height: 56px;
+
+ top: 163px;
+ text-transform: initial;
+ font-family: Roboto-Regular;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 22px;
+ line-height: 28px;
+ align-items: center;
+ opacity: 0.99;
+ z-index: 100; 
+ color: #FFFFFF;
+}
+.sent{
+  width: 237px;
+  height: 64px;
+  position: absolute;
+  top: 520px;
+  left: 185px;
+  background-color: #3e443c00;
+  color: #fff;
+  font-weight: 100;
+  border: 1px solid #fff;
+  font-family: Roboto-Regular;
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.99;
+  z-index: 1;
+  
+}
+.owl-item button:focus{
+  color: #fff;
+  border: 2px solid #e41c1c;
+  background-color: #666d6447;
+  outline: none;
+}
+.owl-item button:hover{
+  color: #fff;
+  border: 2px solid #e41c1c;
+  background-color: #666d6447;
+}
+.owl-dos{
+  border: none;
+  width: 90%;
+}
+
+.hm-slide .owl-dots {
+  position: absolute;
+  width: 100%;
+  padding-bottom: 100px;
+  bottom: 0;
+  text-align: center;
+  pointer-events: none;
+  right: 400px;
+}
+.hm-slide .owl-dots .owl-dot {
+  display: inline-block;
+  pointer-events: auto;
+  border: 1px solid #fff;
+  width: 11px;
+  height: 11px;
+  margin-left: 18px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.hm-slide .owl-dots .owl-dot::before{
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  margin-top: 1px;
+  margin-left: 1px;
+  background-color: transparent;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+.hm-slide .owl-dots .owl-dot.active::before{
+  background-color: #fff;
+}
+.owl-theme .owl-dots .owl-dot span{
+  display: none;
+}
+@media only screen and (max-width : 1200px) {
+ .container-fluid {
+  max-width: 1200px;
+
+ }
+
+}
+
+
+.logo{
+
+}
+.navbar-text,.navbar-icon{
+  font-size: 14PX;
+}
+@media only screen and (max-width : 990px){
+.collapse {
+  width: 500px;
+   font-size: 14px;
+  
+
+}
+.navbar{
+  margin: 0;
+}
+.navbar-brand{
+
+}
+.navbar-text{
+    position: absolute;
+    width: 200px;
+    top: 20px;
+    left: 700px;
+}
+@media only screen and (max-width : 768px) {
+  .navbar {
+  margin-left: 100px;
+  background-color: #ececec;
+  font-size: 14px;
+  
+  width: 300px;
+  font-weight: bold;
+  color: #000;
+  line-height: 16px;
+  padding-left: 10px;
+}
+}
+
+
